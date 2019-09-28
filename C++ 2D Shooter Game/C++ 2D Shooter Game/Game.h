@@ -1,4 +1,6 @@
 #include <SDL.h>
+#include <stdlib.h>
+#include <iostream>
 
 class Game {
 
@@ -8,10 +10,10 @@ public:
 
 	void init(const char* title, int xpos, int ypos, int width, int height, bool fullscreen);
 
-	void handleEvents();
-	void update();
-	void render();
-	void clean();
+	void gameEvents();
+	void gameUpdate();
+	void screenRender();
+	void programClean();
 
 	bool running() { return isRunning };
 
