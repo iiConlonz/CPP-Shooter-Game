@@ -1,6 +1,7 @@
 #include <SDL.h>
-#include <stdlib.h>
+#include <stdio.h>
 #include <iostream>
+#include "pch.h"
 
 class Game {
 
@@ -12,10 +13,10 @@ public:
 
 	void gameEvents();
 	void gameUpdate();
-	void screenRender();
-	void programClean();
+	void gameRender();
+	void gameClean();
 
-	bool running() { return isRunning };
+	bool running() { return isRunning; };
 
 private:
 	bool isRunning;
