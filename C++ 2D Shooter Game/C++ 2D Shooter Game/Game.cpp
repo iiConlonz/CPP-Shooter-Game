@@ -1,6 +1,6 @@
 #include "Game.hpp"
 #include <cstdlib>
-#include <SDL.h>
+#include "SDL.h"
 #include "pch.h"
 #include <iostream>
 

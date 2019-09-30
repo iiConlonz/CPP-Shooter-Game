@@ -1,65 +1,44 @@
 ﻿  Game.cpp
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(10): error C2653: 'Game': is not a class or namespace name
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(14): error C2065: 'SDL_WINDOW_FULLSCREEN': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(17): error C2065: 'SDL_INIT_EVERYTHING': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(17): error C3861: 'SDL_Init': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C2039: 'cout': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C2065: 'cout': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C2039: 'endl': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C2065: 'endl': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(21): error C2065: 'window': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(21): error C3861: 'SDL_CreateWindow': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(22): error C2065: 'window': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(24): error C2039: 'cout': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(24): error C2065: 'cout': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(24): error C2039: 'endl': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(24): error C2065: 'endl': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(27): error C2065: 'renderer': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(27): error C2065: 'window': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(27): error C3861: 'SDL_CreateRenderer': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(28): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(12): error C2653: 'Game': is not a class or namespace name
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(16): error C2065: 'SDL_WINDOW_FULLSCREEN': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C2065: 'SDL_INIT_EVERYTHING': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(19): error C3861: 'SDL_Init': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(23): error C2065: 'window': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(23): error C3861: 'SDL_CreateWindow': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(24): error C2065: 'window': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(29): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(29): error C2065: 'window': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(29): error C3861: 'SDL_CreateRenderer': identifier not found
 e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(30): error C2065: 'renderer': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(30): error C3861: 'SDL_SetRenderDrawColor': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(31): error C2039: 'cout': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(31): error C2065: 'cout': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(31): error C2039: 'endl': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(31): error C2065: 'endl': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(34): error C2065: 'isRunning': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(38): error C2065: 'isRunning': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(42): error C2653: 'Game': is not a class or namespace name
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(44): error C2065: 'SDL_Event': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(44): error C2146: syntax error: missing ';' before identifier 'event'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(44): error C2065: 'event': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(45): error C2065: 'event': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(45): error C3861: 'SDL_PollEvent': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(32): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(32): error C3861: 'SDL_SetRenderDrawColor': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(36): error C2065: 'isRunning': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(40): error C2065: 'isRunning': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(44): error C2653: 'Game': is not a class or namespace name
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(46): error C2065: 'SDL_Event': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(46): error C2146: syntax error: missing ';' before identifier 'event'
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(46): error C2065: 'event': undeclared identifier
 e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(47): error C2065: 'event': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(49): error C2065: 'SDL_QUIT': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(49): error C2131: expression did not evaluate to a constant
-  e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(49): note: a non-constant (sub-)expression was encountered
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(50): error C2065: 'isRunning': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(58): error C2653: 'Game': is not a class or namespace name
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(63): error C2653: 'Game': is not a class or namespace name
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(65): error C2065: 'renderer': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(65): error C3861: 'SDL_RenderClear': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(69): error C2065: 'renderer': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(69): error C3861: 'SDL_RenderPresent': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(72): error C2653: 'Game': is not a class or namespace name
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(74): error C2065: 'window': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(74): error C3861: 'SDL_DestroyWindow': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(75): error C2065: 'renderer': undeclared identifier
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(75): error C3861: 'SDL_DestroyRenderer': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(76): error C3861: 'SDL_Quit': identifier not found
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(77): error C2039: 'cout': is not a member of 'std'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\cstdlib(34): note: see declaration of 'std'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(77): error C2065: 'cout': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(47): error C3861: 'SDL_PollEvent': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(49): error C2065: 'event': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(51): error C2065: 'SDL_QUIT': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(51): error C2131: expression did not evaluate to a constant
+  e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(51): note: a non-constant (sub-)expression was encountered
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(52): error C2065: 'isRunning': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(60): error C2653: 'Game': is not a class or namespace name
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(65): error C2653: 'Game': is not a class or namespace name
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(67): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(67): error C3861: 'SDL_RenderClear': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(71): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(71): error C3861: 'SDL_RenderPresent': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(74): error C2653: 'Game': is not a class or namespace name
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(76): error C2065: 'window': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(76): error C3861: 'SDL_DestroyWindow': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(77): error C2065: 'renderer': undeclared identifier
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(77): error C3861: 'SDL_DestroyRenderer': identifier not found
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\game.cpp(78): error C3861: 'SDL_Quit': identifier not found
   main.cpp
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(4): error C2143: syntax error: missing ';' before '*'
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(9): error C2061: syntax error: identifier 'Game'
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(7): error C2143: syntax error: missing ';' before '*'
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\cpp-shooter-game\c++ 2d shooter game\c++ 2d shooter game\main.cpp(12): error C2061: syntax error: identifier 'Game'
   Generating Code...
