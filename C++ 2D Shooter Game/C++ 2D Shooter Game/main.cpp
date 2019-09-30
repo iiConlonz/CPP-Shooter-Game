@@ -1,4 +1,7 @@
-#include "Game.h"
+#include "Game.hpp"
+#include <stdio.h>
+#include <SDL.h>
+#include <iostream>
 #include "pch.h"
 
 Game *game = nullptr;

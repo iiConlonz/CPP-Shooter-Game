@@ -1,11 +1,12 @@
-#include <SDL.h>
 #include <stdio.h>
-#include <iostream>
+#include <SDL.h>
 #include "pch.h"
+#include <iostream>
 
 class Game {
 
 public:
+
 	Game();
 	~Game();
 
